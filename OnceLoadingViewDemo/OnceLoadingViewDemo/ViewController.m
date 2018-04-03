@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     //模拟加载
-    [OnceLoadingView showNoNetwork:self.view];
+//    [OnceLoadingView showNoNetwork:self.view];
     
 //    //模拟加载失败，重新加载回调
 //    [OnceLoadingView showLoadingFailed:self.view event:^(UIButton *sender) {
@@ -31,7 +31,7 @@
     
     
     //模拟数据没找得到
-//    [OnceLoadingView showNullWithinView:self.view];
+    [OnceLoadingView showNullWithinView:self.view];
     
     //模拟无网络
 //    [OnceLoadingView showNoNetwork:self.view];
